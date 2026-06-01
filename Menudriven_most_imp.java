@@ -1,5 +1,5 @@
 import java.util.*;
-public class practice {
+public class Menudriven_most_imp {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int input;  //already declared here
@@ -23,6 +23,7 @@ public class practice {
         System.out.println("Program Stopped");
     }
 
-      } while(input !=0);
+      } while(input !=0);  //  this will keep taking the input from user for marks until 0 is not entered.
+      sc.close();
     }
 }
